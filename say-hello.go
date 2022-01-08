@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHello() string {
-	return "Belajar Go Modules"
+func SayHello(name string) string {
+	return "Belajar Go Modules " + name
 }
